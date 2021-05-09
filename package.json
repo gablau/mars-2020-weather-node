@@ -1,0 +1,51 @@
+{
+  "name": "mars-2020-weather-node",
+  "version": "0.1.0",
+  "main": "./lib/mars-2020-weather-node.js",
+  "description": "Mars 2020 weather API for nodeJS",
+  "bugs": {
+    "url": "https://github.com/gablau/mars-2020-weather-node/issues"
+  },
+  "homepage": "https://github.com/gablau/mars-2020-weather-node",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gablau/mars-2020-weather-node.git"
+  },
+  "keywords": [
+    "mars",
+    "2020",
+    "weather",
+    "nasa",
+    "mission",
+    "nasa mission",
+    "mars weather",
+    "mars weather 2020",
+    "mars weather 2020 nasa",
+    "mars 2020",
+    "mars 2020 mission",
+    "perseverance",
+    "rover perseverance",
+    "mars perseverance"
+  ],
+  "author": "Gabriele Lauricella <gab.lau@gmail.com> (https://github.com/gablau)",
+  "license": "MIT",
+  "dependencies": {
+    "convert-units": "^2.3.4",
+    "node-fetch": "^2.6.x",
+    "round10": "^1.0.3"
+  },
+  "devDependencies": {
+    "cross-dotenv": "^1.0.4",
+    "mocha": "^8.x",
+    "nock": "^13.x",
+    "nyc": "^15.x",
+    "should": "^13.x"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/cross-dotenv NODE_ENV=test ./node_modules/.bin/mocha  --reporter Spec",
+    "coverage": "./node_modules/.bin/cross-dotenv NODE_ENV=test ./node_modules/.bin/nyc --reporter=html --reporter=text mocha"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
