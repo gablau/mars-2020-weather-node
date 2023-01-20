@@ -1,6 +1,6 @@
 {
   "name": "mars-2020-weather-node",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "./lib/mars-2020-weather-node.js",
   "description": "Mars 2020 weather API for nodeJS",
   "bugs": {
@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "cross-dotenv": "^1.0.4",
-    "mocha": "^8.x",
+    "mocha": "^10.x",
     "nock": "^13.x",
     "nyc": "^15.x",
     "should": "^13.x"

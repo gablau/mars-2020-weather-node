@@ -1,5 +1,14 @@
 # A simple NodeJS interface to [NASA Mars 2020 Mission weather API](https://mars.nasa.gov/mars2020/weather/).
 
+[![npm version](https://img.shields.io/npm/v/mars-2020-weather-node.svg)](https://www.npmjs.com/package/mars-2020-weather-node)
+[![Npm download](https://img.shields.io/npm/dm/mars-2020-weather-node.svg)](https://www.npmjs.com/package/mars-2020-weather-node)
+[![GitHub stars](https://img.shields.io/github/stars/gablau/mars-2020-weather-node.svg)](https://github.com/gablau/mars-2020-weather-node/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/gablau/mars-2020-weather-node.svg)](https://github.com/gablau/mars-2020-weather-node/issues)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/gablau/mars-2020-weather-node/blob/master/LICENSE)
+
+[![NPM](https://nodei.co/npm/mars-2020-weather-node.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/mars-2020-weather-node)
+
+---
 
 ## Installation
 
