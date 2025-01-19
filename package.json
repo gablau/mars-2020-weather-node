@@ -1,6 +1,6 @@
 {
   "name": "mars-2020-weather-node",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "./lib/mars-2020-weather-node.js",
   "description": "Mars 2020 weather API for nodeJS",
   "bugs": {
@@ -9,7 +9,7 @@
   "homepage": "https://github.com/gablau/mars-2020-weather-node",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gablau/mars-2020-weather-node.git"
+    "url": "git+https://github.com/gablau/mars-2020-weather-node.git"
   },
   "keywords": [
     "mars",
@@ -36,14 +36,14 @@
   },
   "devDependencies": {
     "cross-dotenv": "^1.0.4",
-    "mocha": "^10.x",
+    "mocha": "^11.x",
     "nock": "^13.x",
-    "nyc": "^15.x",
+    "nyc": "^17.x",
     "should": "^13.x"
   },
   "scripts": {
-    "test": "./node_modules/.bin/cross-dotenv NODE_ENV=test ./node_modules/.bin/mocha  --reporter Spec",
-    "coverage": "./node_modules/.bin/cross-dotenv NODE_ENV=test ./node_modules/.bin/nyc --reporter=html --reporter=text mocha"
+    "test": "cross-dotenv NODE_ENV=test mocha  --reporter Spec",
+    "coverage": "cross-dotenv NODE_ENV=test nyc --reporter=html --reporter=text mocha"
   },
   "directories": {
     "test": "test"
